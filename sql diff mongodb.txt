@@ -1,0 +1,16 @@
+
+SQL:-Ek structure database hai yani keh uske andr hme patah hai kai itni key ayegi ayr utni row or column bne gi. (TABLE)
+
+
+
+
+MONGODB:-Ek unstructure database hai yani hame nhi patah uske kai andr zyada bhi keys askti hai ayr kaam bhi.(COLLECTION)
+
+
+
+db.collection.find(query,projection);
+db.collection.findOne()
+
+db.collection.updateOne(filter,update);
+
+
