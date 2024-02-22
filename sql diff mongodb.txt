@@ -14,3 +14,10 @@ db.collection.findOne()
 db.collection.updateOne(filter,update);
 
 
+mongodb vs moongoose
+
+1. mongoDb kai andr hm extra data add kr skte hai uske andr validation add nhi hoti ayr nah model hota hai nah hi schemas hote hai.
+2. moongoose kai andr hm extra data add nhi krskte hm uske andr validation ayr model ayr schemas add kr skte hai.
+
+SCHEMAS:- schemas woh hote hai jis kai andr h apni fields dal skte hai take uski validation hoske.
+MODEL:- us schemas ko use krke nodejs ayr mongodb ko connect krta hai 
