@@ -1,6 +1,6 @@
 // ! conect mongodb
 
-const dataConnec = require("./mongodb");
+const dataConnect = require("./mongodb");
 
 // async function getData() {
 //   let data = await dataConnect();
@@ -11,7 +11,7 @@ const dataConnec = require("./mongodb");
 // getData();
 
 function getData() {
-  dataConnec().then((data) => {
+  dataConnect().then((data) => {
     data
       .find({name:"syed"})
       .toArray()

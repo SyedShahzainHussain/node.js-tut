@@ -15,7 +15,7 @@ const main = async () => {
         }
       },
     },
-  });
+  },);
   const userModels = new mongoose.model("shahzaindata", userSchemas);
 
   const saveInDb = async () => {
