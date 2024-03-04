@@ -1,4 +1,4 @@
-const port = process.env.PORT || 8000;
+const port =  8000;
 const express = require("express");
 
 require("./db/index");
